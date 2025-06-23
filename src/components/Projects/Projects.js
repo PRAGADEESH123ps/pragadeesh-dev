@@ -6,6 +6,8 @@ import leaf from "../../Assets/Projects/bus.png";
 import editor from "../../Assets/Projects/shopping.png";
 import chatify from "../../Assets/Projects/weather.png";
 import bitsOfCode from "../../Assets/Projects/portfolio.png";
+import praga from "../../Assets/Projects/praga.png";
+
 
 function Projects() {
   return (
@@ -58,6 +60,17 @@ function Projects() {
               isBlog={false}
               title="Ticket App"
               description="A full-stack travel application developed using React and Django. Users can explore destinations, view travel packages, and book trips in real-time. The app features a secure booking system, dynamic data management, and a fully responsive with Tailwind CSS."
+              ghLink="https://github.com/PRAGADEESH123ps/travel-app"
+            />
+          </Col>
+
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={praga}
+              isBlog={false}
+              title="Grocery store"
+              description="A responsive grocery store web app built using React and Tailwind CSS.
+Users can browse products, add items to their cart, and view dynamic pricing updates in real-time. The app features a clean UI, smooth navigation with React Router, and persistent cart management using localStorage."
               ghLink="https://github.com/PRAGADEESH123ps/travel-app"
             />
           </Col>
