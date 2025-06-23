@@ -69,9 +69,9 @@ function Projects() {
               imgPath={praga}
               isBlog={false}
               title="Grocery store"
-              description="A responsive grocery store web app built using React and Tailwind CSS.
-Users can browse products, add items to their cart, and view dynamic pricing updates in real-time. The app features a clean UI, smooth navigation with React Router, and persistent cart management using localStorage."
-              ghLink="https://github.com/PRAGADEESH123ps/travel-app"
+              description="A responsive grocery store web app built using React and Tailwind CSS. Users can browse products, add items to their cart, and view dynamic pricing updates in real-time. The app features a clean UI, smooth navigation with React Router, and persistent cart management using localStorage."
+              ghLink="https://github.com/PRAGADEESH123ps/pragadeesh-dev/"
+              demoLink="https://pragadeesh-portfolio-xi.vercel.app/"  
             />
           </Col>
         </Row>
